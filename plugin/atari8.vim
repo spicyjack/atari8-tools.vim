@@ -5,8 +5,8 @@
 " Version 0.01
 
 " convert ATASCII newlines (0x9b) to '\r'
-  map ,tonixeol :%s/›/\r/g
+  map ,eolnl :%s/›/\r/g<CR>
 " convert '\r' to ATASCII newlines (0x9b)
-  map ,toatreol :%s/\r/›/g
+  map ,eolatr :%s/\n/›/g<CR>
 
 " vim: filetype=vim expandtab textwidth=70 shiftwidth=2 tabstop=2 comments=\:\"
