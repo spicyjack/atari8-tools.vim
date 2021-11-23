@@ -4,6 +4,9 @@ This is a VIM plugin with common functions for working with files created on
 an 8-bit Atari computer (400 / 800 / 1200XL / 600XL / 800XL / 65XE / 130XE /
 800XE and any clones or emulators).
 
+This VIM plugin is licensed under the Apache License, version 2; see the file
+`LICENSE` in the top level of this repository for more info.
+
 ## Loading this plugin ##
 To use load this plugin into VIM automatically using VIM 8 packages, place
 this file in the `~/.vim/plug/<name>/start` directory, where `<name>` is the
