@@ -37,6 +37,8 @@ NeoBundle
       NeoBundle 'spicyjack/atari8-tools.vim'
 
 ## Tool: Atari/NIX Line Endings ##
+
+### Background ###
 The normal line ending in a text file generated on an Atari 8-bit computer
 (otherwise known as ATASCII) is `0x9b`, while the line endings on text files
 created on Unix/Linux/macOS computers is `\n ` (and Windows computers is
@@ -47,4 +49,17 @@ This plugin helps converting between ATASCII and `*NIX` line endings.
 You can find out more about Atari's version of ASCII (ATASCII) on
 [Wikipedia](https://en.wikipedia.org/wiki/ATASCII).
 
+### Convert Line Endings ###
+Map ATASCII line endings to `\n `:
+
+    <Leader>2cr
+
+Map Unix/Linux line endings to ATASCII:
+
+    <Leader>2atr
+
+The `<Leader>` character by default in VIM is a backspace (`\`), but plugins
+often remap it to other things, such as the comma (`,`), so the above commands
+may either be `\2cr` and `\2atr`, `,2cr` and `,2atr`, or some other completely
+different leader character.
 
